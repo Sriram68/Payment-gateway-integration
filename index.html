@@ -1,0 +1,333 @@
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title> The Sparks Foundation TASK 1 </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link type="text/css" href="PUBLIC/css/styles.css">
+  </head>
+
+  <body>
+    <style>
+      html,
+body
+{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgb(24,78,98,0.6),rgb(0,0,0,0.7));
+    background-size: cover;
+    color: #ffffff;
+    background-image: url("../images/bg.png");
+    background-position: center;
+}
+.about{
+  margin-top: 3%;
+  text-align: center;
+}
+h1{
+  margin-top: 3%;
+  text-align: center;
+  color: #FFFF00;
+}
+.topP{
+  width: 100%;
+  margin-top: 3%;
+  line-height: 2;
+  font-size: 20px;
+}
+
+.navbar-nav li a{
+    padding: 5px 9px;
+    color: #ffffff;
+    margin-right: 10px;
+    transition: 0.5s ease;
+}
+.navbar-nav .active a
+{
+    color: #000000;
+    background-color: #ffffff;
+}
+.navbar-nav li a:hover{
+    color: #000000;
+    background-color: #ffffff;
+}
+.navbar-brand
+{
+    color: #ffffff;
+}
+.navbar-brand:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+.jumbotron
+{
+    background: transparent;
+    color: #ffffff;
+    height:200px;
+    text-align: center;
+
+}
+
+p{
+    font-size: 100%;
+    line-height: 2;
+}
+
+h4{
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+.about-us-info{
+  font-size: 1rem;
+  margin: 10% 20% 0 20%;
+  width: 100%;
+}
+.navbar-brand-last{
+  margin-top: 7%;
+  text-align: center;
+}
+
+  /*---------------------------------------------*/
+  button:focus {
+      outline: none;
+      border: none;
+      background: transparent;
+  }
+
+  button:hover {
+      cursor: pointer;
+  }
+
+  iframe {
+      border: none ;
+  }
+
+
+
+
+  /*----------------------------------------------
+  [ Contact ]*/
+
+
+  .container-contact {
+    width: 100%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .wrap-contact {
+    width: 85%;
+    background: rgb(0,0,0,0.6);
+    border-radius: 10px;
+    overflow: hidden;
+
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  }
+  
+  .contact-form {
+    width: 390px;
+  }
+
+  .contact-form-title {
+    display: block;
+    font-family: Montserrat-ExtraBold;
+    font-size: 24px;
+    color: #fff;
+    line-height: 1.2;
+    text-align: left;
+    padding-bottom: 36px;
+  }
+
+  input.input {
+    height: 50px;
+    border-radius: 25px;
+
+  }
+
+  textarea.input {
+    min-height: 150px;
+    border-radius: 25px;
+    padding: 14px 30px;
+  }
+
+  /*---------------------------------------------*/
+  .wrap-input {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    margin-bottom: 10px;
+  }
+
+  .input {
+    display: block;
+    width: 100%;
+    background: #e6e6e6;
+    font-family: Montserrat-Bold;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #666666;
+    margin-left: 75%;
+  }
+  .container-contact-form-btn{
+    margin-left: 75%;
+    margin-bottom: 3%;
+  }
+.contact-form{
+  margin-left: 11%;
+}
+.contact-form-title{
+  margin-left: 5%;
+  margin-top: 2%;
+  color: #ffff00;
+}
+
+.download-button{
+  margin: 2% 3% 1% 3%;
+
+}
+
+  /*------------------------------------------------------------------
+  [ Focus ]*/
+  .focus-input {
+    display: block;
+    position: absolute;
+    border-radius: 25px;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 0 0;
+
+  }
+
+  
+
+  .symbol-input {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    border-radius: 25px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    color: #aaaaaa;
+    font-size: 15px;
+}
+  
+
+  /*------------------------------------------------------------------
+  [ Button ]*/
+   .container-contact-form-btn {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  .par{
+    margin-top: 8%;
+    font-size: 25px;
+  }
+  .contact-form-btn {
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    background: #846add;
+    font-family: Montserrat-Bold;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #fff;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+
+  .contact-form-btn:hover {
+    background: #333333;
+  }
+
+  /*------------------------------------------------------------------
+
+    </style>
+    <nav class="navbar navbar-expand-sm my-2">
+      <a class="navbar-brand ml-5" href="#">Sriram G V</a>
+
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <i class="fas fa-bars" style="color: #fff;font-size: 150%;"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="AboutUs.html">About</a></li>
+          <li class="nav-item "><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <header class="jumbotron">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1>THE SPARKS FOUNDATION</h1>
+            <h2>#GRIPNOV22</h2>
+            <p>Task- Payment Gateway Integration </p>
+            <p class="par">"We make a living by what we make. We make a life by what we give!" <br> -WINSTON S CHURCHILL</p>
+
+          </div>
+        </div>
+        <div class="col-12">
+          <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_KiFAT8cEp4Yt6A" async> </script> </form>
+        </div>
+      </div>
+    </header>
+
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/c252d9c8b4.js" crossorigin="anonymous"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="main.js" charset="utf-8"></script>
+  </body>
+
+</html>

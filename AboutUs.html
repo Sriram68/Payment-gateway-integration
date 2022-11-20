@@ -1,0 +1,367 @@
+<html>
+
+<head>
+  <title> The Sparks Foundation TASK 1 </title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="PUBLIC/css/styles.css">
+
+</head>
+
+<body>
+  <style>
+    html,
+body
+{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgb(24,78,98,0.6),rgb(0,0,0,0.7));
+    background-size: cover;
+    color: #ffffff;
+    background-image: url("../images/bg.png");
+    background-position: center;
+}
+.about{
+  margin-top: 3%;
+  text-align: center;
+}
+h1{
+  margin-top: 3%;
+  text-align: center;
+  color: #FFFF00;
+}
+.topP{
+  width: 100%;
+  margin-top: 3%;
+  line-height: 2;
+  font-size: 20px;
+}
+
+.navbar-nav li a{
+    padding: 5px 9px;
+    color: #ffffff;
+    margin-right: 10px;
+    transition: 0.5s ease;
+}
+.navbar-nav .active a
+{
+    color: #000000;
+    background-color: #ffffff;
+}
+.navbar-nav li a:hover{
+    color: #000000;
+    background-color: #ffffff;
+}
+.navbar-brand
+{
+    color: #ffffff;
+}
+.navbar-brand:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+.jumbotron
+{
+    background: transparent;
+    color: #ffffff;
+    height:200px;
+    text-align: center;
+
+}
+
+p{
+    font-size: 100%;
+    line-height: 2;
+}
+
+h4{
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+.about-us-info{
+  font-size: 1rem;
+  margin: 10% 20% 0 20%;
+  width: 100%;
+}
+.navbar-brand-last{
+  margin-top: 7%;
+  text-align: center;
+}
+
+  /*---------------------------------------------*/
+  button:focus {
+      outline: none;
+      border: none;
+      background: transparent;
+  }
+
+  button:hover {
+      cursor: pointer;
+  }
+
+  iframe {
+      border: none ;
+  }
+
+
+
+
+  /*----------------------------------------------
+  [ Contact ]*/
+
+
+  .container-contact {
+    width: 100%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .wrap-contact {
+    width: 85%;
+    background: rgb(0,0,0,0.6);
+    border-radius: 10px;
+    overflow: hidden;
+
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  }
+  
+  .contact-form {
+    width: 390px;
+  }
+
+  .contact-form-title {
+    display: block;
+    font-family: Montserrat-ExtraBold;
+    font-size: 24px;
+    color: #fff;
+    line-height: 1.2;
+    text-align: left;
+    padding-bottom: 36px;
+  }
+
+  input.input {
+    height: 50px;
+    border-radius: 25px;
+
+  }
+
+  textarea.input {
+    min-height: 150px;
+    border-radius: 25px;
+    padding: 14px 30px;
+  }
+
+  /*---------------------------------------------*/
+  .wrap-input {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    margin-bottom: 10px;
+  }
+
+  .input {
+    display: block;
+    width: 100%;
+    background: #e6e6e6;
+    font-family: Montserrat-Bold;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #666666;
+    margin-left: 75%;
+  }
+  .container-contact-form-btn{
+    margin-left: 75%;
+    margin-bottom: 3%;
+  }
+.contact-form{
+  margin-left: 11%;
+}
+.contact-form-title{
+  margin-left: 5%;
+  margin-top: 2%;
+  color: #ffff00;
+}
+
+.download-button{
+  margin: 2% 3% 1% 3%;
+
+}
+
+  /*------------------------------------------------------------------
+  [ Focus ]*/
+  .focus-input {
+    display: block;
+    position: absolute;
+    border-radius: 25px;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 0 0;
+
+  }
+
+  
+
+  .symbol-input {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    border-radius: 25px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    color: #aaaaaa;
+    font-size: 15px;
+}
+  
+
+  /*------------------------------------------------------------------
+  [ Button ]*/
+   .container-contact-form-btn {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  .par{
+    margin-top: 8%;
+    font-size: 25px;
+  }
+  .contact-form-btn {
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    background: #846add;
+    font-family: Montserrat-Bold;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #fff;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+
+  .contact-form-btn:hover {
+    background: #333333;
+  }
+
+  /*------------------------------------------------------------------
+
+  </style>
+  <nav class="navbar navbar-expand-sm my-2">
+    <a class="navbar-brand ml-5" href="#">About us</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <i class="fas fa-bars" style="color: #fff;font-size: 100%;"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item active"><a class="nav-link" href="AboutUs.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="about">
+    <h1> We are proudly non-profit, non-corporate and non-compromised.<br>Thousands of people like you help us stand up for a healthy society!</h1>
+    <p class="topP"> We are moving India towards a more fair, flourishing, and just India.<br>But we can't get there without you!</p>
+  </div>
+
+  <div class="row mb-25">
+    <div class="col-xl-4 col-lg-4">
+      <div class="about-us-text mb-30">
+        <div class="inner-about">
+          <div class="about-us-icon f-left">
+            <i class="far fa-check"></i>
+          </div>
+          <div class="about-us-info">
+            <h4>Trusted Fund</h4>
+            <p>As a non-profit we rely on donations <br> to provide the kind of health<br> care kids deserve.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="col-xl-4 col-lg-4">
+      <div class="about-us-text mb-30">
+        <div class="inner-about">
+          <div class="about-us-icon f-left">
+            <i class="far fa-check"></i>
+          </div>
+          <div class="about-us-info">
+            <h4>Award Winning</h4>
+            <p>There could be no definition of a successful<br>life that does not include<br>service to others.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xl-4 col-lg-4">
+      <div class="about-us-text mb-30">
+        <div class="inner-about">
+          <div class="about-us-icon f-left">
+            <i class="far fa-check"></i>
+          </div>
+          <div class="about-us-info">
+            <h4>Trustworthy</h4>
+            <p>More than 1 million Indian families trust us!<br>Just like you...<br>And we proved that we are trustworthy!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-sm my-2">
+    <a class="navbar-brand-last ml-5" href="#">Learn More-></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <i class="fas fa-bars" style="color: #fff;font-size: 150%;"></i>
+    </button>
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/c252d9c8b4.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
